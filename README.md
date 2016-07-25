@@ -3,7 +3,7 @@
 
 <img src="https://www.osu.edu/assets/site/images/osu-logo.png" alt="THE OHIO STATE UNIVERSITY">
 
-## mdMiner is an innovative web application that uses machine learning approaches to predict the best drugs and drug combinations for individual cancer patients using their genomic data. mdMiner is an application developed by the Department of Biomedical Informatics at The Ohio State University College of Medicine under the supervision of Dr. Fuhai Li. 
+### mdMiner is an innovative web application that uses machine learning approaches to predict the best drugs and drug combinations for individual cancer patients using their genomic data. mdMiner is an application developed by the Department of Biomedical Informatics at The Ohio State University College of Medicine under the supervision of Dr. Fuhai Li. 
 
  
 ### **Installing** 
