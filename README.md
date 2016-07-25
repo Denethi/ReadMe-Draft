@@ -1,5 +1,5 @@
 # **mdMiner** 
-## Repositioning Drugs for Individual Cancer Patients based on Personal Genomics
+## Repositioning Drugs for Individual Cancer Patients based on Personal Genomics using Precision Medicine
 
 <img src="https://www.osu.edu/assets/site/images/osu-logo.png" alt="THE OHIO STATE UNIVERSITY">
 
@@ -9,7 +9,7 @@
 ### **Installing** 
 
 1) Download the latest version of *RStudio* and *RShiny*.
-http://www.rstudio.com/products/rstudio/download/preview/
+https://www.rstudio.com/products/rstudio/download2/#download 
 https://www.rstudio.com/products/shiny-2/
 
 2) Install *ShinyDashboard* package by typing the following command on the R console.  
