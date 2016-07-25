@@ -1,20 +1,11 @@
-# Hello, this is the repository of mdMinerShiny project, we will put all code to this subfolder
-# contact: robert.fh.li@gmail.com; BMI@OSU;
-
-# How to run Shiny App
-wDir <- c('/Users/li150/FHLosu/gitRepository1/')
-setwd(wDir)
-library(shiny)
-runApp('./mdMinerShiny')
-
-**mdMiner-The Ohio State University**
+# **mdMiner-The Ohio State University**
 
 <img src="https://www.osu.edu/assets/site/images/osu-logo.png" alt="THE OHIO STATE UNIVERSITY">
 
-mdMiner is an innovative web application that uses machine learning approaches to predict the best drugs and drug combinations for individual cancer patients using their genomic data.
+## mdMiner is an innovative web application that uses machine learning approaches to predict the best drugs and drug combinations for individual cancer patients using their genomic data.
 
  
-**Installing** 
+### **Installing** 
 
 1) Download the latest version of *RStudio* and *RShiny*.
 http://www.rstudio.com/products/rstudio/download/preview/
@@ -41,9 +32,11 @@ biocLite("graphite”)
 7) Install R package *igraph* using th following command.
  install.packages("igraph")
  
-*Instructions*
+### *Instructions*
 
 Click on the *Choose File* button and upload fold change data of a patient in a .txt file format. 
 Drug suggestions will be generated in descending order. 
 Click the desired drug  in the table to display drug network, gene network and the merge network. 
 Click the title of each block to download corresponding data.
+
+#### For any questions, please contact: robert.fh.li@gmail.com; BMI@OSU;
