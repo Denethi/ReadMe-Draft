@@ -30,7 +30,7 @@ https://www.rstudio.com/products/rstudio/download2/#download
 \> biocLite("graphite”);  
 \> biocLite("org.Hs.eg.db”);  
 
-### *Instructions*  
+### **Instructions**  
 Click *Run App* in RStudio. This will open the webapp in a browser.  
 Click on the *Choose File* button and upload fold change data of a patient in a .txt file format.  
 Drug suggestions will be generated in descending order.  
