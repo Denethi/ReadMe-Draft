@@ -14,8 +14,8 @@ Mac OS X - https://cran.r-project.org/bin/macosx/
 https://www.rstudio.com/products/rstudio/download2/#download 
 
 3) Install *Shiny* and *ShinyDashboard* packages by typing the following commands on the R console.  
-  \> install.packages("shiny");  
-  \> install.packages("shinydashboard");  
+   \> install.packages("shiny");  
+   \> install.packages("shinydashboard");  
  
  4) Install other dependencies by typing the following commands on the R console.  
   \> install.packages("RCurl");  
