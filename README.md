@@ -30,11 +30,11 @@ https://www.rstudio.com/products/rstudio/download2/#download
 \> biocLite("graphite”);  
 \> biocLite("org.Hs.eg.db”);  
 
-### *Instructions*
-
-Click on the *Choose File* button and upload fold change data of a patient in a .txt file format. 
-Drug suggestions will be generated in descending order. 
-Click the desired drug  in the table to display drug network, gene network and the merge network. 
-Click the title of each block to download corresponding data.
+### *Instructions*  
+Click *Run App* in RStudio. This will open the webapp in a browser.  
+Click on the *Choose File* button and upload fold change data of a patient in a .txt file format.  
+Drug suggestions will be generated in descending order.  
+Click the desired drug  in the table to display drug network, gene network and the merge network.  
+Click the title of each block to download corresponding data.  
 
 #### For any questions, please contact: robert.fh.li@gmail.com; BMI@OSU;
