@@ -7,22 +7,24 @@
 
  
 ### **Installing** 
+1) Install *R* on your machine using these links.  
+Windows - https://cran.r-project.org/bin/windows/base/  
+Linux - https://cran.r-project.org/doc/manuals/r-release/R-admin.html  
+Mac OS X - https://cran.r-project.org/bin/macosx/
 
-1) Download the latest version of *RStudio* and *RShiny*.
+2) Download and install the latest version of *RStudio*  
 https://www.rstudio.com/products/rstudio/download2/#download 
-https://www.rstudio.com/products/shiny-2/
 
-2) Install *ShinyDashboard* package by typing the following command on the R console.  
-install.packages("shinydashboard") 
+3) Install *Shiny* and *ShinyDashboard* packages by typing the following commands on the R console.  
+\> install.packages("shiny");  
+\> install.packages("shinydashboard");  
 
-3) Install *RCurl* package. 
-install.packages("RCurl")
-
-4) Install *networkD3* https://cran.r-project.org/web/packages/networkD3/index.html
-
-4) Install *DT* by typing the following command on the R console. 
-if (!require("DT")) install.packages('DT')
-sessionInfo()
+4) Install other dependencies by typing the following commands on the R console.  
+\> install.packages("RCurl");  
+\> install.packages("networkD3");  
+\> install.packages("httr");  
+\> install.packages("DT");  
+\> install.packages("igraph");
 
 5) Install *Bioconductor* package 
 source ("https://bioconductor.org/biocLite.R"); biocLite("org.Hs.eg.db”)
@@ -31,9 +33,6 @@ source ("https://bioconductor.org/biocLite.R"); biocLite("org.Hs.eg.db”)
 source("https://bioconductor.org/biocLite.R");
 biocLite("graphite”)
 
-7) Install R package *igraph* using th following command.
- install.packages("igraph")
- 
 ### *Instructions*
 
 Click on the *Choose File* button and upload fold change data of a patient in a .txt file format. 
