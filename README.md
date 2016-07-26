@@ -4,8 +4,8 @@
 ### mdMiner is an innovative web application that uses machine learning approaches to predict the best drugs and drug combinations for individual cancer patients using their genomic data. mdMiner is an application developed by the Department of Biomedical Informatics at The Ohio State University College of Medicine under the supervision of Dr. Fuhai Li. 
 
  
-### **Installating**  
-1) Install *R* on your machine using these links.  
+### **Installing**  
+1) Install *R* on your machine following the instructions on any of these links.  
 Windows - https://cran.r-project.org/bin/windows/base/  
 Linux - https://cran.r-project.org/doc/manuals/r-release/R-admin.html  
 Mac OS X - https://cran.r-project.org/bin/macosx/
@@ -25,7 +25,7 @@ https://www.rstudio.com/products/rstudio/download2/#download
 \> install.packages("igraph");
 
 5) Use *Bioconductor* as following to install *Graphite* and *Genome annotation* packages. Type the following commands in R console.   
-\> source ("https://bioconductor.org/biocLite.R");  
+\> source("https://bioconductor.org/biocLite.R");  
 \> biocLite();  
 \> biocLite("graphite”);  
 \> biocLite("org.Hs.eg.db”);  
@@ -37,4 +37,5 @@ Drug suggestions will be generated in descending order.
 Click the desired drug  in the table to display drug network, gene network and the merge network.  
 Click the title of each block to download corresponding data.  
 
-#### For any questions, please contact: robert.fh.li@gmail.com; BMI@OSU;
+#### For any questions, please contact: robert.fh.li@gmail.com.
+#####- Dr. Fuhai Li, Department of Biomedical Informatics, The Ohio State University.
