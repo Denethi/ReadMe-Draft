@@ -14,21 +14,21 @@ Mac OS X - https://cran.r-project.org/bin/macosx/
 https://www.rstudio.com/products/rstudio/download2/#download 
 
 3) Install *Shiny* and *ShinyDashboard* packages by typing the following commands on the R console.  
-\> install.packages("shiny");  
-\> install.packages("shinydashboard");  
-
-4) Install other dependencies by typing the following commands on the R console.  
-\> install.packages("RCurl");  
-\> install.packages("networkD3");  
-\> install.packages("httr");  
-\> install.packages("DT");  
-\> install.packages("igraph");
+  \> install.packages("shiny");  
+  \> install.packages("shinydashboard");  
+ 
+ 4) Install other dependencies by typing the following commands on the R console.  
+  \> install.packages("RCurl");  
+  \> install.packages("networkD3");  
+  \> install.packages("httr");  
+  \> install.packages("DT");  
+  \> install.packages("igraph");
 
 5) Use *Bioconductor* as following to install *Graphite* and *Genome annotation* packages. Type the following commands in R console.   
-\> source("https://bioconductor.org/biocLite.R");  
-\> biocLite();  
-\> biocLite("graphite”);  
-\> biocLite("org.Hs.eg.db”);  
+  \> source("https://bioconductor.org/biocLite.R");  
+  \> biocLite();  
+   \> biocLite("graphite”);  
+ \> biocLite("org.Hs.eg.db”);  
 
 ### **Instructions**  
 Click *Run App* in RStudio. This will open the webapp in a browser.  
