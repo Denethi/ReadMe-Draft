@@ -6,23 +6,23 @@
  
 ### **Installing**  
 1) Install *R* on your machine following the instructions on any of these links.  
-Windows - https://cran.r-project.org/bin/windows/base/  
-Linux - https://cran.r-project.org/doc/manuals/r-release/R-admin.html  
-Mac OS X - https://cran.r-project.org/bin/macosx/
+ Windows - https://cran.r-project.org/bin/windows/base/  
+ Linux - https://cran.r-project.org/doc/manuals/r-release/R-admin.html  
+ Mac OS X - https://cran.r-project.org/bin/macosx/
 
 2) Download and install the latest version of *RStudio*  
-https://www.rstudio.com/products/rstudio/download2/#download 
+ https://www.rstudio.com/products/rstudio/download2/#download 
 
 3) Install *Shiny* and *ShinyDashboard* packages by typing the following commands on the R console.  
-   \> install.packages("shiny");  
-   \> install.packages("shinydashboard");  
+  \> install.packages("shiny");  
+  \> install.packages("shinydashboard");  
  
  4) Install other dependencies by typing the following commands on the R console.  
-  \> install.packages("RCurl");  
-  \> install.packages("networkD3");  
-  \> install.packages("httr");  
-  \> install.packages("DT");  
-  \> install.packages("igraph");
+   \> install.packages("RCurl");  
+   \> install.packages("networkD3");  
+   \> install.packages("httr");  
+   \> install.packages("DT");  
+   \> install.packages("igraph");
 
 5) Use *Bioconductor* as following to install *Graphite* and *Genome annotation* packages. Type the following commands in R console.   
   \> source("https://bioconductor.org/biocLite.R");  
