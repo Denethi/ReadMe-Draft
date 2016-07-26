@@ -15,7 +15,8 @@ https://www.rstudio.com/products/shiny-2/
 2) Install *ShinyDashboard* package by typing the following command on the R console.  
 install.packages("shinydashboard") 
 
-3) Install *RCurl* package. install.packages("RCurl")
+3) Install *RCurl* package. 
+install.packages("RCurl")
 
 4) Install *networkD3* https://cran.r-project.org/web/packages/networkD3/index.html
 
